@@ -175,7 +175,7 @@ namespace ExtendHealth_Assessment
             /// and stores the player selection once played
             /// </summary>
             /// <param name="n"></param>
-            public static void CreateBoard(int n)
+            private static void CreateBoard(int n)
             {
                 for (int i = 0; i < n; i++)
                 {
