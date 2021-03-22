@@ -23,7 +23,7 @@ namespace ExtendHealth_Assessment
             //Solution.NumberOfUniqueEmailAddresses(addresses);
 
             // Tic Tac Toe Game
-            Console.WriteLine("To start a Tic Tac Toe game, enter a value for n");
+            Console.WriteLine("To start a Tic Tac Toe game, enter a POSITIVE value for n.");
             int n = Convert.ToInt32(Console.ReadLine());
             Solution.TicTacToe game = new Solution.TicTacToe(n);
         }
@@ -86,7 +86,7 @@ namespace ExtendHealth_Assessment
                 RemainingPlays(n);
                 while (winner != true)
                 {
-                    Console.WriteLine($"Player {player}, it's your turn. Enter your SPACE SEPARATED x y values");
+                    Console.WriteLine($"Player {player}, it's your turn. Enter your SPACE SEPARATED X Y values");
                     string[] cood = Console.ReadLine().TrimEnd().Split(" ");
                     int x = Convert.ToInt32(cood[0]);
                     int y = Convert.ToInt32(cood[1]);

@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[reservations] (
     [Id]               INT           IDENTITY (1, 1) NOT NULL,
-    [date_in]          DATETIME2 (7) NOT NULL,
-    [date_out]         DATETIME2 (7) NOT NULL,
+    [date_in]          DATE          NOT NULL,
+    [date_out]         DATE          NOT NULL,
     [made_by]          VARCHAR (100) NOT NULL,
     [reserved_by]      VARCHAR (100) NOT NULL,
     [campsite_id]      INT           NOT NULL,
