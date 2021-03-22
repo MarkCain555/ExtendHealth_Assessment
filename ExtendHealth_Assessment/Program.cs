@@ -86,7 +86,7 @@ namespace ExtendHealth_Assessment
                 RemainingPlays(n);
                 while (winner != true)
                 {
-                    Console.WriteLine($"Player {player}, it's your turn. Enter your space separated x y values");
+                    Console.WriteLine($"Player {player}, it's your turn. Enter your SPACE SEPARATED x y values");
                     string[] cood = Console.ReadLine().TrimEnd().Split(" ");
                     int x = Convert.ToInt32(cood[0]);
                     int y = Convert.ToInt32(cood[1]);
@@ -97,6 +97,8 @@ namespace ExtendHealth_Assessment
                         cood = Console.ReadLine().TrimEnd().Split(" ");
                         x = Convert.ToInt32(cood[0]);
                         y = Convert.ToInt32(cood[1]);
+
+                        turn = PlacePiece(x, y, player, n);
                     }
                     RemainingPlays(n);
                     if (turn == 1  || turn == 2)
