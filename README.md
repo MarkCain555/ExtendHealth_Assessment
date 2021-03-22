@@ -1,6 +1,6 @@
 # Thoughts about this assessment
-	* This turned out to be way more involved than what i initally thought.
-	* It took me longer because I had to share my computer with my son for his university classes.
+* This turned out to be way more involved than what i initally thought.
+* It took me longer because I had to share my computer with my son for his university classes.
 
 # ExtendHealth_Assessment
 Answers to assessment questions
@@ -11,9 +11,9 @@ Answers to assessment questions
 
 # Advanced Tic-Tac-Toe
 * In the class TicTacToe.cs is the solution of the advanced tic tac toe game
-## Assumptions:
-	* Little to no error handling was implemented i.e. NOT bullet proof!
-	* I have tried to indicate inputs and value ranges where appropriate
+	## Assumptions:
+		* Little to no error handling was implemented i.e. NOT bullet proof!
+		* I have tried to indicate inputs and value ranges where appropriate
 
 
 # Duplicate Email Addresses
@@ -43,5 +43,5 @@ Answers to assessment questions
 
 # Camp Site Tracking
 	* There is a separate solution for this question, as well as, a DB backup file 'MillcreekCanyom.bak' with dummy data in it.
-## Assuptions:
-	* This is a solution and THE solution.  
+	## Assuptions:
+		* This is a solution and THE solution.  
