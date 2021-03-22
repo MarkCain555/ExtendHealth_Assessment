@@ -3,8 +3,7 @@ Answers to assessment questions
 
 # Thoughts about this assessment
 * This turned out to be way more involved than what I initally thought.
-* It took me longer because I had to share my computer with my son for his university classes.
-
+* It would have been helpful to have the final question defined a liitle better.
 
 # Unique Eamil Addresses:
 * In the class 'Solution.cs' is the functions to return the number of unique email address based on the stated criteria.
@@ -15,6 +14,7 @@ Answers to assessment questions
 	## Assumptions:
 		* Little to no error handling was implemented i.e. NOT bullet proof!
 		* I have tried to indicate inputs and value ranges where appropriate
+		* NOT optimized for perfomance
 
 
 # Duplicate Email Addresses
@@ -45,4 +45,7 @@ WHERE e.salary IN (SELECT salary FROM maxSalary)
 # Camp Site Tracking
 * There is a separate solution for this question, as well as, a DB backup file 'MillcreekCanyom.bak' with dummy data in it.
 	## Assuptions:
-		* This is A solution and THE solution.  
+		* This is A solution and THE solution.
+		* Campground is in sections 'Alpha', 'Bravo', 'Charlie'
+		* Tried to keep it as simple as posible
+		* NOT optimized for performance
