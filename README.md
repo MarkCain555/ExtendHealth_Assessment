@@ -42,6 +42,6 @@ Answers to assessment questions
 ```
 
 # Camp Site Tracking
-	* There is a separate solution for this question, as well as, a DB backup file 'MillcreekCanyom.bak' with dummy data in it.
+* There is a separate solution for this question, as well as, a DB backup file 'MillcreekCanyom.bak' with dummy data in it.
 	## Assuptions:
 		* This is a solution and THE solution.  
